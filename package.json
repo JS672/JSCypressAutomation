@@ -1,0 +1,22 @@
+{
+  "name": "jscypressautomation",
+  "version": "1.0.0",
+  "description": "Test repo for Cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS672/JSCypressAutomation.git"
+  },
+  "author": "Justin Shek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS672/JSCypressAutomation/issues"
+  },
+  "homepage": "https://github.com/JS672/JSCypressAutomation#readme",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
