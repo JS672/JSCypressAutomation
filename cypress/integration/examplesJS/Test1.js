@@ -1,12 +1,21 @@
 /// <reference types="Cypress" />
 
-describe('My first test suite',() => {
+describe('My first test suite',() => 
+{
   it('My first test case', ()=> {
       //First test step
-      cy.visit("https://www.google.co.uk");
+      cy.visit("https://www.google.co.uk")
       cy.contains('I agree').click() 
-      cy.get('.gLFyf').type('Wilfred Glover')
+      cy.get('.gLFyf').type('Kelly Choi')
       cy.contains('Google Search').click() 
-      //cy.log('Mike roolz!');
-  });
-});
+      cy.get('#rcnt').should('contain','@KELLYCHOI')
+      cy.log('Automation is not too hard I guess')
+
+
+
+
+
+
+
+  })
+})
