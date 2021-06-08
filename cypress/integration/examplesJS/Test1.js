@@ -1,12 +1,12 @@
-describe('My First Test', () => {
-    it('My first test case', () => {
-      expect(true).to.equal(false)
-    })
+/// <reference types="Cypress" />
 
-    it('My second test case', () => {
-        expect(true).to.equal(true)
-      })
-
-
-
-})
+describe('My first test suite',() => {
+  it('My first test case', ()=> {
+      //First test step
+      cy.visit("https://www.google.co.uk");
+      cy.contains('I agree').click() 
+      cy.get('.gLFyf').type('Wilfred Glover')
+      cy.contains('Google Search').click() 
+      //cy.log('Mike roolz!');
+  });
+});
