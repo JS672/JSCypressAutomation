@@ -8,6 +8,7 @@ describe('My first test suite',() =>
       cy.get('.search-keyword').type('ca')
       cy.wait(2000)
       cy.get('.product:visible').should('have.length',4)
+      
     
 
 

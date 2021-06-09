@@ -6,9 +6,9 @@ describe('My first test suite',() =>
       //First test step
       cy.visit("https://www.google.co.uk")
       cy.contains('I agree').click() 
-      cy.get('.gLFyf').type('Kelly Choi')
+      cy.get('.gLFyf').type('Wilfred Glover')
       cy.contains('Google Search').click() 
-      cy.get('#rcnt').should('contain','@KELLYCHOI')
+      cy.get('#rcnt').should('contain','Wilf')
       cy.log('Automation is not too hard I guess')
 
 
