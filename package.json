@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/JS672/JSCypressAutomation#readme",
   "devDependencies": {
-    "cypress": "^7.5.0"
+    "cypress": "^8.3.0"
   }
 }
