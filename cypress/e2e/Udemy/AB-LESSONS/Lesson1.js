@@ -20,17 +20,17 @@ console.log(occupation)
 
 //Data types
 
-//String
+    //String
 var middleName = "David"
 
-//Number
+    //Number
 var ageOfBrother = 25
 
-//Boolean
+    //Boolean
 var isHeMarried = false
 
-//Null (no value)
+    //Null (no value)
 var yearsInMarriage = null
 
-//Undefined
+    //Undefined
 var numberOfCars = undefined

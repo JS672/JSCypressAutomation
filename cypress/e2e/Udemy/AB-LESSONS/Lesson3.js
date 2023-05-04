@@ -1,0 +1,19 @@
+// Objects
+
+var customer = {
+    firstName: 'John',
+    lastName: 'Smith',
+    cars: ["Volvo", "Toyota", "Tesla"]
+}
+    //Dot notation
+customer.firstName =  "Mike"
+console.log(customer.firstName)
+    //Bracket notation
+customer['lastName'] =  "Silver"
+console.log(`${customer.firstName} ${customer.lastName}`)
+
+//Arrays
+var car = ["Volvo", "Toyota", "Tesla"]
+car [1] = "BMW"
+console.log(car[1])
+console.log(customer.cars[1])
